@@ -1,3 +1,53 @@
+/* color: #FFFFFF; цвет шрифта главного блока */
+/* color: #212121; основной цвет текста */
+/* color: #757575; цвет текста обзаца */
+/* color: #2196F3;цвет акцента */
+
+:root {
+  --primary-text-color:#212121;
+  --title-text-color:
+  --accent-color:#2196f3;
+  --primari-bg-color:
+  /* пример color: var(--primary-text-color); */
+}
 body {
-  background: ;
+  color: #212121;
+  background-color: #ffffff;
+}
+/* убраны точки перед текстом */
+ul {
+  list-style: none;
+}
+/* цвет ссылок */
+.link-current,
+.logo-web {
+  color: #2196f3;
+}
+/* основной цвет txt */
+.link,
+.logo-Studio {
+  color: #212121;
+}
+/* смена цвета при навидении на ссылку */
+.page-header .link:hover,
+.page-header .link:focus {
+  color: #2196f3;
+}
+/* убраны подчеркивания с текста */
+a {
+  text-decoration: none;
+}
+/* герой */
+.hero-title {
+  color: ;
+}
+/* кнопка */
+.batton {
+}
+/* преимущества */
+.feature-list .title {
+  color: #212121;
+}
+p {
+  color: #757575;
 }
