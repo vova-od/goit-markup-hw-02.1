@@ -1,49 +1,62 @@
-/* color: #FFFFFF; цвет шрифта главного блока */
+/* color: #FFFFFF; основной цвет; цвет шрифта главного блока */
 /* color: #212121; основной цвет текста */
 /* color: #757575; цвет текста обзаца */
 /* color: #2196F3;цвет акцента */
 
 :root {
-  --primary-text-color:#212121;
-  --title-text-color:
-  --accent-color:#2196f3;
-  --primari-bg-color:
+  --primary-text-color: #212121;
+  --primary-white-color: #ffffff;
+  --accent-color: #2196f3;
+  --primari-bg-color: #757575;
   /* пример color: var(--primary-text-color); */
 }
+
 body {
   color: #212121;
   background-color: #ffffff;
 }
+/* site nav */
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
 /* убраны точки перед текстом */
 ul {
   list-style: none;
 }
+
 /* цвет ссылок */
 .link-current,
 .logo-web {
   color: #2196f3;
 }
+
 /* основной цвет txt */
 .link,
 .logo-Studio {
   color: #212121;
 }
+
 /* смена цвета при навидении на ссылку */
 .page-header .link:hover,
 .page-header .link:focus {
   color: #2196f3;
 }
+
 /* убраны подчеркивания с текста */
 a {
   text-decoration: none;
 }
+
 /* герой */
-.hero-title {
-  color: ;
-}
+/* .hero-title {} */
+
 /* кнопка */
-.batton {
+.button-hero {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
 }
+
 /* преимущества */
 .feature-list .title {
   color: #212121;
@@ -51,3 +64,5 @@ a {
 p {
   color: #757575;
 }
+
+/* стили для портфолио */
