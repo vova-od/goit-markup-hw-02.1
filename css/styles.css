@@ -15,6 +15,12 @@ body {
   color: #212121;
   background-color: #ffffff;
 }
+
+/* подключение шрифтов */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 /* site nav */
 .site-nav .link.current {
   color: var(--accent-color);
@@ -65,4 +71,4 @@ p {
   color: #757575;
 }
 
-/* стили для портфолио */
+/* --------СТИЛИ ДЛЯ ПОРТФОЛИО ----------*/
