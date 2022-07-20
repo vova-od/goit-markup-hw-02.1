@@ -3,6 +3,20 @@
 /* color: #757575; цвет текста обзаца */
 /* color: #2196F3;цвет акцента */
 
+/* варианты тегов
+* - универсальный селектор
+тег
+ID
+класс
+атрибут
+потомка
+ребенка
+соседа
+*/
+
+/* section title
+color: #FFFFFF */
+
 :root {
   --primary-text-color: #212121;
   --primary-white-color: #ffffff;
@@ -10,20 +24,30 @@
   --primari-bg-color: #757575;
   /* пример color: var(--primary-text-color); */
 }
+/* герой */
+.hero-seсtion,
+.footer {
+  background-color: #2F303A;
+  color: #ffffff
+}
 
-body {
+body { 
   color: #212121;
   background-color: #ffffff;
 }
 
 /* подключение шрифтов */
-body {
+
+body { 
   font-family: "Roboto", sans-serif;
 }
 
 /* site nav */
 .site-nav .link.current {
   color: var(--accent-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 /* убраны точки перед текстом */
@@ -44,8 +68,8 @@ ul {
 }
 
 /* смена цвета при навидении на ссылку */
-.page-header .link:hover,
-.page-header .link:focus {
+.header .link:hover,
+.header .link:focus {
   color: #2196f3;
 }
 
@@ -54,13 +78,11 @@ a {
   text-decoration: none;
 }
 
-/* герой */
-/* .hero-title {} */
-
 /* кнопка */
 .button-hero {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
+  font-family: inherit;
 }
 
 /* преимущества */
@@ -72,3 +94,10 @@ p {
 }
 
 /* --------СТИЛИ ДЛЯ ПОРТФОЛИО ----------*/
+
+/* font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em; */
