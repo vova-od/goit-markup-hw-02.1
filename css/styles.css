@@ -29,6 +29,23 @@ color: #FFFFFF */
 .footer {
   background-color: #2F303A;
   color: #ffffff
+  
+}
+/* .hero-seсtion, */
+
+.hero-title {
+  font-weight: 900; 
+  font-size: 44px;
+  line-height: 1,36; 
+  text-align: center; 
+}
+
+.activities-titl, 
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
 }
 
 body { 
@@ -50,7 +67,14 @@ body {
   line-height: 1.14;
 }
 
+/* подвал */
+
+.footer {
+
+}
+
 /* убраны точки перед текстом */
+
 ul {
   list-style: none;
 }
@@ -82,7 +106,7 @@ a {
 .button-hero {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
-  font-family: inherit;
+  font-family: inherit
 }
 
 /* преимущества */
